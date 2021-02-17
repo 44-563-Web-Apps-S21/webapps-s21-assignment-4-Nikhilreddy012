@@ -15,9 +15,14 @@
     color: #fff;
 }
 .name {
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: black;
+}
+.name:hover {
+    text-shadow: 2px 2px 5px red;
+    border: 2px dotted green;
 }
 .theseus {
     color: coral;
@@ -47,4 +52,7 @@ th {
 }
 tr:nth-child(even) {
     background-color: #e2e2e2;
+}
+h5 {
+    margin: 8px 0;
 }
